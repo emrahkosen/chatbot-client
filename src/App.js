@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import "react-chat-elements/dist/main.css"
+//import { Input, MessageBox, SystemMessage } from "react-chat-elements";
+import { useEffect } from 'react';
+import ChatBox from './Components/ChatBox/ChatBox';
+import FloatingAction from "./Components/FloatingAction/FloatingAction";
+import { useSelector } from 'react-redux';
+import Register from './Components/Chat/Register';
+
 
 function App() {
+  const register = useSelector((state) => state.user.register);
+  const chatslice = useSelector((state) => state.chat.chat);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {register?<>
+        {chatslice === "chatting" && (<ChatBox />)}
+        <FloatingAction />
+      </>: <Register />} 
     </div>
   );
 }

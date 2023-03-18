@@ -1,0 +1,19 @@
+{
+  "new": "New",
+  "import": "Import",
+  "filter": "Filter",
+  "message": "Products",
+  "inbox": "Inbox",
+  "sent": "Sent",
+  "draft": "Draft",
+  "delete": "Deleted",
+  "table": "Table Mode",
+  "cart": "Cart Mode",
+  "subject": "Subject",
+  "type": "Type",
+  "class": "Class",
+  "date": "Date",
+  "close": "Close",
+  "language": "Language",
+  "templates": "Templates"
+}

@@ -1,0 +1,19 @@
+{
+  "new": "Yeni",
+  "import": "İçeAktar",
+  "filter": "Filtrele",
+  "message": "Ürünler",
+  "inbox": "Gelen",
+  "sent": "Giden",
+  "draft": "Taslak",
+  "delete": "Silinen",
+  "table": "Tablo Modu",
+  "cart": "Kart Modu",
+  "subject": "Konu",
+  "type": "Tipi",
+  "class": "Sınıfı",
+  "date": "Tarih",
+  "close": "Kapat",
+  "language": "Dil",
+  "templates": "Şablonlar"
+}

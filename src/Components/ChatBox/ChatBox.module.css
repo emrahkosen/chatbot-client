@@ -1,0 +1,45 @@
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8c929e;
+  padding: 0.3rem 1.5rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  color: #bdc3c7;
+  
+
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #bdc3c7;
+  border-color: #bdc3c7;
+  color: black;
+}
+
+.actions .button--alt {
+  color: #8a2b06;
+}
+
+.actions .button {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.main {
+  background-color: #8ba4b4;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  
+}

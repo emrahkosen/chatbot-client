@@ -1,0 +1,26 @@
+.floatingaction {
+  position: fixed;
+  width: 100px;
+  bottom: 40px;
+  right: 30px;
+  background-color: #425568;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  z-index: 2;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.floatingaction:hover {
+  background-color: #6c7986;
+}
+.floatingaction:active {
+  background-color: #aab1b8;
+  border: 1px soldid #252d35;
+}
