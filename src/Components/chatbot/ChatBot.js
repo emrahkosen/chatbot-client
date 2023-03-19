@@ -56,7 +56,7 @@ const ChatBot = () => {
         <div className={classes.messages}>
             <ul>
                 <li className={classes.receive}>
-                    Hello, how can i help you?
+                    Hello {userName}, how can i help you?
                 </li>
                 {messages.map(message =><li className={classes[message.status]}>
                         <h4>{message.sender}</h4>

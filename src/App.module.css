@@ -6,5 +6,12 @@
 
 .App {
   text-align: center;
+}
+
+.userinfo{
   background-color: #be6f44;
+  height: 100%;
+  padding: 100px;
+  margin: 200px;
+  border-radius: 20px;
 }
