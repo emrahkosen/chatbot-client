@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    username: '',
-    register: false
+    username: sessionStorage.getItem("username") ? sessionStorage.getItem("username"): "",
+    register: sessionStorage.getItem("register") ? sessionStorage.getItem("register"): false,
 };
 
 
@@ -17,6 +17,8 @@ const userSlice = createSlice({
                 let userName = action.payload.username.trim().split(" ")[0];
                 state.username = userName;
                 state.register = true;
+                sessionStorage.setItem("username", userName);
+                sessionStorage.setItem("register", true);
             }
         }
     },
